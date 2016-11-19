@@ -1,0 +1,19 @@
+{
+  "name": "hendelser",
+  "version": "1.0.0",
+  "description": "Hendelser web-app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrafonic/hendelser.git"
+  },
+  "author": "Mathias Fredrik Hedberg <mathias@metrafonic.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metrafonic/hendelser/issues"
+  },
+  "homepage": "https://github.com/metrafonic/hendelser#readme"
+}
