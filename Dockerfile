@@ -1,6 +1,6 @@
 FROM node:argon
 
-MAINTAINER Mathias Hedberg <mathias@metrafonic.com>
+MAINTAINER Mathias Fredrik Hedberg <mathias@metrafonic.com>
 
 # Create app directory
 RUN mkdir -p /usr/src
@@ -14,4 +14,4 @@ RUN npm install
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+CMD git pull;npm start
