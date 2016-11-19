@@ -12,12 +12,13 @@ npm install
 node server.js
 ```
 ## REST APIs
-HTTP METHOD 	URI 	DESCRIPTION
-POST 	/userprofiles 	Create a new user profile
-GET 	/userprofiles 	Read all the user profiles
-GET 	/userprofiles/:USER_NAME 	Read the profile of an user
-PUT 	/userprofiles/:USER_NAME 	Update the profile of an user
-DELETE 	/userprofiles/:USER_NAME 	Delete the profile of user specified in place of :user
+|HTTP METHOD |	URI 	|DESCRIPTION|
+|------------|-------|------------|
+|POST |	/user_profiles |	Create a new user profile
+|GET 	|/user_profiles |	Read all the user profiles
+|GET 	|/user_profiles/:USER_NAME |	Read the profile of an user
+|PUT 	|/user_profiles/:USER_NAME |	Update the profile of an user
+|DELETE |	/user_profiles/:USER_NAME |	Delete the profile of user specified in place of :user
 
 
 ## Docker
