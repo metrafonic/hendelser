@@ -28,6 +28,6 @@ WORKDIR /usr/src/app
 
 RUN npm install
 RUN npm install oracledb
-EXPOSE 8080
+EXPOSE 3000
 
 CMD git pull;npm start
